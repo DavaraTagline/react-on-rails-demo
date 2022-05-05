@@ -32,4 +32,6 @@ Follow those steps before rails server start
 
   * yarn add react react-dom
 
+  * yarn add jquery popper.js
+
 For React js server start open new terminal, got to project directory and run: ./bin/webpack-dev-server
