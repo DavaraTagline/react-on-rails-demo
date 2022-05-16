@@ -7,3 +7,11 @@
 #   Character.create(name: 'Luke', movie: movies.first)
 fruits = ['Mango', 'Pineapple', 'Passion fruit', 'Dragonfruit']
 fruits.each{|fruit| Fruit.create(name: fruit, description: "I am a delicious #{fruit}.")}
+
+# vendors = ['Jon', 'Josh', 'Jack ']
+# vendors.each{|vendor| Vendor.create(firstname: vendor,  lastname: "second name of  #{vendor}.")}
+User.destroy_all
+
+user1 = User.create(username: "sample", password: "sample")
+
+puts 'seeded'

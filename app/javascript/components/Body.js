@@ -38,6 +38,7 @@ class Body extends React.Component {
     }
     handleFormSubmit(name, description) {
         console.log(name, description)
+        // stringify is a method that converts a JavaScript object into a string
         let body = JSON.stringify({ fruit: { name: name, description: description } })
         fetch(this.path, {
             method: 'POST',
